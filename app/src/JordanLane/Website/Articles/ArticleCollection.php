@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use JordanLane\Website\Loader;
 use JordanLane\Website\Collection;
 use Illuminate\Cache\CacheManager;
-use Illuminate\Pagination\Environment as Paginator;
+use Illuminate\Pagination\Factory as Paginator;
 
 class ArticleCollection extends Collection {
 
