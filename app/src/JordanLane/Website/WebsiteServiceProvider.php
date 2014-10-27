@@ -140,12 +140,12 @@ class WebsiteServiceProvider extends ServiceProvider {
 			return new ArticleRefreshCommand($app['articles']);
 		});
 
-		$this->app['documents.refresh.command'] = $this->app->share(function($app)
+		/*$this->app['documents.refresh.command'] = $this->app->share(function($app)
 		{
 			return new DocsRefreshCommand($app['documents']);
-		});
+		});*/
 
-		$this->commands('articles.refresh.command', 'documents.refresh.command');
+		$this->commands('articles.refresh.command');
 	}
 
 }
