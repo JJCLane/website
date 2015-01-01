@@ -27,7 +27,7 @@
 
 		<link rel="stylesheet" href="/assets/css/style.css">
 		<link rel="alternate" type="application/rss+xml" title="Jordan Lane RSS Feed" href="{{ URL::to('rss') }}" />
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400' rel='stylesheet' type='text/css'>
 
 
 	</head>
