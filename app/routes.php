@@ -1,5 +1,18 @@
 <?php
 
+HTML::macro('activeClass', function($route) {
+
+	if( Request::path() == $route ) {
+		$active = "class = 'active'";
+	}
+	else {
+		$active = '';
+	}
+ 
+  return $active;
+});
+
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
