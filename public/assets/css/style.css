@@ -32,7 +32,7 @@ p a:hover,
 p a:focus {
   color: #e74c3c;
 }
-p a::before {
+p a:before {
     position: absolute;
     top: 0;
     left: 0;
@@ -48,7 +48,7 @@ p a::before {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
-  p a:hover::before, p a:focus::before {
+  p a:hover:before, p a:focus:before {
     background-color: rgba(255,255,255,0);
     opacity: 1;
     -webkit-transform: scaleX(1) scaleY(0.618);
