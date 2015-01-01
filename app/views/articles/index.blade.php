@@ -24,4 +24,6 @@
 
 @endforeach
 
-{{ $articles->links() }}
+<div class="pagination">
+	{{ $articles->links() }}
+</div>
