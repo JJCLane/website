@@ -48,7 +48,7 @@
 		After finishing college instead of going to uni I had the option to go travelling so I took it, visiting my brother in Dubai and seeing 
 		the east coast of Australia and staying with family friends in Melbourne. There I started work on a big web project which really set me 
 		down the path I'm on now, and as it happens is still on-going. After returning home I ended up with an interview for 
-		<a href="http://www.steinias.com/">SteinIAS</a> who I now work for as a web developer.
+		<a href="http://www.steinias.com/">Stein IAS</a> who I now work for as a web developer.
 	</p>
 
 	<p>
