@@ -32,7 +32,7 @@
 
 	</head>
 
-	<body onload="prettyPrint()">
+	<body>
 
 		<div class="container">
 			<header>
@@ -58,7 +58,7 @@
 		</div>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-		<script src="/assets/javascripts/prettify.js" type="text/javascript"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 		<script src="/assets/javascripts/website.js" type="text/javascript"></script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
