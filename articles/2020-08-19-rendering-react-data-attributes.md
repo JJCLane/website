@@ -27,7 +27,7 @@ export function getDataAttributes(props) {
 
 What it looks like to use it:
 
-~~~javascript
+~~~jsx
 function MyComponent(props) {
     const dataProps = getDataAttributes(props);
     return (
@@ -36,7 +36,7 @@ function MyComponent(props) {
 }
 ~~~
 
-~~~javascript
+~~~jsx
 <MyComponent data-component-id="unique-value">
 ~~~
 
